@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const httpClient = axios.create({
-    baseURL: 'https://minhas-financas-cris.herokuapp.com/' , 
+    baseURL: 'https://minhas-financas-cris.herokuapp.com' , 
     withCredentials: true
 })
 
